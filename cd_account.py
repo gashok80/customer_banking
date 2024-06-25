@@ -23,7 +23,7 @@ def create_cd_account(balance, interest_rate, months):
     # Calculate interest earned
     # ADD YOUR CODE HERE
     if interest_rate == 0 or balance ==0:
-        sys.exit("Sorry, you need to enter the correct interest_rate or balance")i
+        sys.exit("Sorry, you need to enter the correct interest_rate or balance")
      
     cd_interest_earned = balance * interest_rate * months
     # Update the CD account balance by adding the interest earned
